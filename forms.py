@@ -1,5 +1,5 @@
 from flask import Flask, render_template, url_for, flash, redirect
-from forms import RegistrationForm
+# from forms import RegistrationForm
 from flask_behind_proxy import FlaskBehindProxy
 
 class RegistrationForm(FlaskForm):
