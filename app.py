@@ -1,4 +1,5 @@
-from flask import Flask, render_template, git, url_for, flash, redirect, request
+import git
+from flask import Flask, render_template, url_for, flash, redirect, request
 
 app = Flask(__name__)
 
