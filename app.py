@@ -1,12 +1,12 @@
 import git
 from flask import Flask, render_template, url_for, flash, redirect, request
-from flask_behind_proxy import FlaskBehindProxy
+# from flask_behind_proxy import FlaskBehindProxy
 from flask_sqlalchemy import SQLAlchemy
 
 from forms import RegistrationForm
 
 app = Flask(__name__)
-proxied = FlaskBehindProxy(app)
+# proxied = FlaskBehindProxy(app)
 
 # Secret key for WTForms
 app.config["SECRET_KEY"] = "ee40137d434beb7618156749bc5ba660"
